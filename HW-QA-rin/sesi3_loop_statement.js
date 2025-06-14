@@ -1,0 +1,1 @@
+// 1.Buatlah segitia dengan menggunakan loop statement
