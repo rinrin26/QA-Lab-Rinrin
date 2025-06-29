@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv / secrets
+.env
+.env.*    # misalnya .env.test, .env.local
+
+# coverage tools (misalnya nyc, istanbul)
+coverage/
+.nyc_output/
+
+# test results
+mochawesome-report/
+test-results/
+
+# editor configs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# output files (opsional)
+dist/
+build/
+
+# temporary files
+*.tmp
+*.temp
+
+# optional: lock files (hanya jika tidak dibutuhkan tim lain)
+package-lock.json
+# yarn.lock
+
+# MacOS / L
