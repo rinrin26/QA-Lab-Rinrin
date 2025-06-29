@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "description": "Selenium WebDriver tests using Mocha with Mochawesome reports",
     "scripts": {
-        "test": "mocha tests --recursive --timeout 60000"
+        "test": "mocha tests --recursive --timeout 60000",
+        "test-pom": "mocha tests/test_hw_10_pom.js --recursive --timeout 60000"
     },
     "dependencies": {
         "selenium-webdriver": "^4.17.0"
